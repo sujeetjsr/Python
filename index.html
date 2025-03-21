@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Live Video Streaming</title>
+  <style>
+    body { text-align: center; background-color: #f0f0f0; font-family: Arial, sans-serif; }
+    h1 { color: #333; }
+    img { max-width: 100%; height: auto; border: 2px solid #333; }
+  </style>
+</head>
+<body>
+  <h1>Live Video Streaming</h1>
+  <!-- The image source calls the video_feed route -->
+  <img src="{{ url_for('video_feed') }}" alt="Live Video Feed">
+</body>
+</html>
